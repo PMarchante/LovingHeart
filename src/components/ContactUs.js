@@ -1,11 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+
 const ContactUs = () => {
-  return (
-    <div>
-      contact page
-      <Link to='/staff'>Navigate to meetStaff</Link>
-    </div>
-  );
+  return <div>contact page</div>;
 };
 export default ContactUs;

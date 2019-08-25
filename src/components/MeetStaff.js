@@ -1,12 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
 
 const MeetStaff = () => {
-  return (
-    <div>
-      meet staff page
-      <Link to='/'>Navigate to contact</Link>
-    </div>
-  );
+  return <div>meet staff page</div>;
 };
 export default MeetStaff;
